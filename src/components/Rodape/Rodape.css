@@ -1,0 +1,21 @@
+.rodape {
+    background-color: black;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape__social {
+    display: flex;
+}
+
+.rodape__social img {
+    margin-right: 24px;
+}
+
+.rodape p {
+    color: grey;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,33 @@
+.banner{
+    position: relative;
+}
+
+.banner img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    background-color: black;
+    box-shadow: -8px 8px 16px #000000,
+        8px -8px 16px #000000;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    color: yellowgreen;
+}
+
+.banner p {
+    color: grey;
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+}

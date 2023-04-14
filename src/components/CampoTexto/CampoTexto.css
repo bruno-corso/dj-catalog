@@ -1,0 +1,28 @@
+.campo-texto {}
+
+.campo-texto label {
+    margin: 0 10%;
+    text-align: left;
+    display: block;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: yellowgreen;
+    font-weight: lighter;
+}
+
+.campo-texto input {
+    box-shadow: 6px 8px 8px #000000;
+    /* -8px -8px 16px #ffffff; */
+    border-radius: 30px;
+    border: 0;
+    width: 80%;
+    font-size: 1.25rem;
+    padding: 1.25rem 1.125rem;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.campo-texto input::placeholder {
+    color: #AFAFAF;
+}
