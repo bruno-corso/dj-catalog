@@ -1,4 +1,4 @@
-# DJ'Catalog :headphones:	:alien:
+# DJ's Catalog :headphones:	:alien:
 
 Check it out! https://dj-catalog.vercel.app/
 
